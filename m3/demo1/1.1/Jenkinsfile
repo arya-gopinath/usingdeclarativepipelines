@@ -3,7 +3,6 @@ pipeline {
     environment {
         VERSION = "0.1.0"        
         VERSION_RC = "rc.2"
-	HOME = '/tmp'
     }
     stages {
         stage('Audit tools') {                        
